@@ -1,6 +1,4 @@
-# mycode
-For python learning - Alta3
-# mycode (Project Title)
+# mycode For python learning - Alta3
 
 One Paragraph of your project description goes here. Describe what you're trying to do.
 What is the purpose of putting up this repo?
