@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-def main():
-    hostname = input("What value should we set for hostname?")
-    ## Notice how the next line has changed
-    ## here we use the str.lower() method to return a lowercase string
-    if hostname.lower() == "mtg":
-        print("The hostname was found to be mtg")
-main()
+ipchk = input("Apply an IP address: ") # this line now prompts the user for input
+
+# a provided string will test true
+if ipchk:
+   print("Looks like the IP address was set: " + ipchk) # indented under if
+else:    # if data is NOT provided
+   print("You did not provide input.") # indented under else
